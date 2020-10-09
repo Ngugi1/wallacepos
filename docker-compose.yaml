@@ -1,0 +1,41 @@
+version: "3.7"
+services:
+  web-server:
+    build:
+      dockerfile: php.Dockerfile
+      context: .
+    restart: always
+    environment:
+      - MYSQL_HOST=mysql-server
+      - MYSQL_ROOT_PASSWORD=Xy8p8zOar17y
+      - MYSQL_DATABASE=wallacepos
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql-server
+    volumes:
+      - ".:/var/www/wallacepos.com/public_html"
+  mysql-server:
+    image: mysql:8
+    restart: always
+    command: mysqld --sql_mode=""
+    environment:
+      - MYSQL_ROOT_PASSWORD=Xy8p8zOar17y
+      - MYSQL_USER=root
+      - MYSQL_DATABASE=wallacepos
+    volumes:
+      - mysql-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:5.0.1
+    restart: always
+    environment:
+      - PMA_HOST=mysql-server
+      - PMA_PORT=3306
+    ports:
+      - "5000:80"
+    depends_on:
+      - mysql-server
+volumes:
+  mysql-data:
