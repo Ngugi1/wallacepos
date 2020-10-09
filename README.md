@@ -1,4 +1,4 @@
-To run this project
+## To run this project
 1. Install docker (for Mac https://docs.docker.com/docker-for-mac/install/) 
 2. Install docker-compose (https://docs.docker.com/compose/install/)
 3. Start docker
@@ -17,6 +17,8 @@ To run this project
   password: testtest
 
   to login into WallacePOS!!
+
+To shut down WallacePOS, run `docker-compose down`
 
 
 Good luck!
