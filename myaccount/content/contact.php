@@ -11,11 +11,11 @@
 <div class="row">
     <div class="col-xs-12">
         <!-- PAGE CONTENT BEGINS -->
-        <p style="text-align: center;">To contact WallacePOS staff, use the contact form below. <br/>
-            Alternatively, you can call Michael on 0410 844 700<br /><br/>
+        <p style="text-align: center;">To contact IMAB POS staff, use the contact form below. <br/>
+            Alternatively, you can call Samuel Ngugi Ndung'u on +254758353388<br /><br/>
             <i>Please note the security code below is case sensitive.</i></p>
 
-        <div style="text-align: center; margin: 0;">
+        <!-- <div style="text-align: center; margin: 0;">
             <form id="contact_form" onsubmit="return sendMail()">
                 <div style="margin: 0 auto; text-align: left; position: relative; max-width: 610px;">
                     <div style="text-align: left; width: 300px; display: inline-block;">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </form>
-        </div>
+        </div> -->
     </div>
 </div>
 <script type="text/javascript">

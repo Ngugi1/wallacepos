@@ -17,7 +17,7 @@
     <div class="widget-box transparent">
     <div class="widget-header widget-header-flat">
         <h4 class="lighter">
-            <i class="icon-dollar"></i>
+            <i class="icon-money"></i>
             Today's Takings
         </h4>
     </div>
@@ -61,7 +61,7 @@
 
     <div class="infobox infobox-blue2 infobox-takings">
         <div class="infobox-icon">
-            <i class="icon-dollar"></i>
+            <i class="icon-money"></i>
         </div>
 
         <div class="infobox-data">
@@ -72,7 +72,7 @@
 
     <div class="infobox infobox-orange infobox-cost">
         <div class="infobox-icon">
-            <i class="icon-dollar"></i>
+            <i class="icon-money"></i>
         </div>
 
         <div class="infobox-data">
@@ -83,7 +83,7 @@
 
     <div class="infobox infobox-green infobox-profit">
         <div class="infobox-icon">
-            <i class="icon-dollar"></i>
+            <i class="icon-money"></i>
         </div>
 
         <div class="infobox-data">
@@ -305,7 +305,7 @@
 
                         <div class="grid3">
 															<span class="grey">
-																<i class="icon-dollar icon-2x blue"></i>
+																<i class="icon-money icon-2x blue"></i>
 																&nbsp; total
 															</span>
                             <h4 id="piebalance" class="bigger pull-right">-</h4>

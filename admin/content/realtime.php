@@ -141,7 +141,7 @@
     <div class="widget-box transparent">
         <div class="widget-header widget-header-flat">
             <h4 class="lighter">
-                <i class="icon-dollar"></i>
+                <i class="icon-money"></i>
                 Today's Takings
             </h4>
         </div>
@@ -185,7 +185,7 @@
 
             <div class="infobox infobox-blue2 infobox-takings">
                 <div class="infobox-icon">
-                    <i class="icon-dollar"></i>
+                    <i class="icon-money"></i>
                 </div>
 
                 <div class="infobox-data">
@@ -196,7 +196,7 @@
 
             <div class="infobox infobox-orange infobox-cost">
                 <div class="infobox-icon">
-                    <i class="icon-dollar"></i>
+                    <i class="icon-money"></i>
                 </div>
 
                 <div class="infobox-data">
@@ -207,7 +207,7 @@
 
             <div class="infobox infobox-green infobox-profit">
                 <div class="infobox-icon">
-                    <i class="icon-dollar"></i>
+                    <i class="icon-money"></i>
                 </div>
 
                 <div class="infobox-data">
